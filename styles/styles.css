@@ -1,13 +1,20 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-
-
-h1 {
+body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
+    background-color: #1e1e1e;
+}
+
+.content-section {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.content-section_theme_dark {
+    background-color: black;
+    height: 100px;
+}
+
+.content-section_theme_bright {
+    background-color: #FEE42A;
+    height: 100px;
 }
