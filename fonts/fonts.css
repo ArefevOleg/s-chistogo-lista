@@ -1,9 +1,31 @@
 @font-face {
-    font-family: "EB Garamond";
-    /*src: local("Lexend Peta Regular"),*/
-    /*local("LexendPeta-Regular"),*/
-    /*url("Lexend_Peta-webfont.woff2") format("woff2"),*/
-    /*url("Lexend_Peta-webfont.woff") format("woff"),*/
-    /*url("Lexend_Peta-webfont.svg") format("svg");*/
+    font-family: 'EB Garamond';
+    src: url('ebgaramondregular.woff2') format('woff2');
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('ebgaramondmedium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('interregular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('interbold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
