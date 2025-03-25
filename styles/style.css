@@ -12,7 +12,6 @@ body {
 }
 .content-section_theme_dark {
     background-color: black;
-    height: 100px;
 }
 
 .content-section_theme_bright {
@@ -106,8 +105,10 @@ body {
 }
 
 .intro__main-text {
+    display: flex;
     flex-direction: column;
     gap: 24px;
+    line-height: 1.4;
 }
 
 
