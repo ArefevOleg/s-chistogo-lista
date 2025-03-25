@@ -5,11 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Убираем стандартные стили для списков */
-ul, ol {
-    list-style: none;
-}
-
 /* Убираем стандартные стили для ссылок */
 a {
     text-decoration: none;

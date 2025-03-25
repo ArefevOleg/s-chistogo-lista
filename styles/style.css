@@ -16,7 +16,6 @@ body {
 
 .content-section_theme_bright {
     background-color: #FEE42A;
-    height: 100px;
 }
 
 /*  header  */
@@ -53,8 +52,7 @@ body {
 .cover {
     min-height: 221px;
     background-color: black;
-    padding-top: 17px;
-    padding-right: 0;
+    padding-top: 7px;
     background-image: url("/images/cover.svg");
     background-repeat: no-repeat;
     background-size: 95% auto;
@@ -73,12 +71,10 @@ body {
 
 .text-center {
     text-align: center;
-    margin-right: 27px;
 }
 
 .text-right {
     text-align: right;
-    margin-right: 24px;
 }
 
 /*    intro   */
@@ -110,6 +106,66 @@ body {
     gap: 24px;
     line-height: 1.3;
 }
+
+/*    reasons    */
+
+.reasons {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: #131313;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.content-section__subtitle {
+    font-size: 28px;
+    font-family: 'EB Garamond', serif;
+}
+
+.content-section__introduction {
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.content-section__list {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style-position: outside;
+}
+
+.content-section__list-item {
+
+}
+
+.content-section__list-accent {
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
