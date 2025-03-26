@@ -133,7 +133,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    list-style-position: outside;
 }
 
 .content-section__list-item {
@@ -144,6 +143,12 @@ body {
     font-weight: 600;
 }
 
+/*   how-to   */
+
+.how-to {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
 
 
 
