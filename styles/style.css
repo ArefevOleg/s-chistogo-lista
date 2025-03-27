@@ -37,6 +37,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    list-style: none;
 }
 
 .header__menu-link {
@@ -146,13 +147,75 @@ body {
 /*   how-to   */
 
 .how-to {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
     padding-top: 40px;
     padding-bottom: 60px;
 }
 
+.content-section__introduction {
+    font-size: 20px;
+}
 
+.cards-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    list-style: none;
+}
 
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+    border-radius: 25px;
+}
 
+.card_theme_dark {
+    background-color: #343434;
+}
+
+.card__author {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card__author-photo {
+    max-width: 100%;
+    height: auto; /* сохраняет пропорции */
+}
+
+.card__author-name {
+
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card__title {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.card__text {
+
+}
+
+.card_theme_bright {
+    background-color: #FEE42A;
+    color: #131313;
+}
+
+.card_text-only {
+
+}
 
 
 
