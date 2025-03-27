@@ -122,26 +122,28 @@ body {
 .content-section__subtitle {
     font-size: 28px;
     font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    line-height: 1.1;
 }
 
 .content-section__introduction {
     font-size: 20px;
-    line-height: 1.3;
+    line-height: 27px;
 }
 
 .content-section__list {
-    padding-left: 20px;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
 .content-section__list-item {
-
+    padding-left: 18px;
+    line-height: 21px;
 }
 
 .content-section__list-accent {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /*   how-to   */
@@ -205,7 +207,7 @@ body {
 }
 
 .card__text {
-
+    line-height: 1.4;
 }
 
 .card_theme_bright {
@@ -217,11 +219,26 @@ body {
 
 }
 
+/*   footer  */
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #FEE42A;
+}
 
+.footer__copy {
+    display: flex;
+    gap: 5px;
+}
 
-
-
+.footer__links {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
 
 
 
